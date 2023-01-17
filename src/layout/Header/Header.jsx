@@ -51,6 +51,7 @@ const HeaderWrpper = styled.div`
    right: 0;
    transition: all 0.4s;
    background: ${({ topScroll }) => (topScroll ? colors.mainLinear : "transparent")};
+   z-index: 10;
 
    @media screen and (min-width: 900px) {
       padding: 2rem 5.4rem;
