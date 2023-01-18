@@ -2,12 +2,12 @@ import { colors } from "./../../utils/cssVars";
 import React from "react";
 import styled from "styled-components";
 import HomeSearch from "../../components/HomeSearch/HomeSearch";
-import airplan from "./../../assets/images/airplan map.png";
+import airplan from "./../../assets/images/airplan-map.png";
 
 const Home = () => {
    return (
       <HomeWrapper>
-         <HeaderImage src={airplan} alt="" />
+         <HeaderImage src={airplan} alt="" draggable="false" />
          <HomeSearch />
       </HomeWrapper>
    );
